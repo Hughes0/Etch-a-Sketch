@@ -1,0 +1,43 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#options button {
+    width: 100%;
+    font-size: 20px;
+}
+
+#options button.selected {
+    background-color: lightblue;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+#options > input {
+    width: 100%;
+}
+
+#sketch-container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 175px 175px 175px 175px;
+    grid-template-rows: 175px 175px 175px 175px;
+    border: 1px solid black;
+    height: 700px;
+    width: 700px;
+}
