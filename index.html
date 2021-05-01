@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Etch-a-Sketch</title>
+    </head>
+    <body>
+        <h1>Etch-a-Sketch</h1>
+        <div id="container">
+            <div id="options">
+                <h2>Options</h2>
+                <button id="reset">Reset Sketch</button>
+                Side Length
+                <input type="range" min="1" max="64" value="4" id="grid-size">
+                <button id="change-grid-size">Update Size</button>
+                <br>
+                Pen Type
+                <button id="pen-select" class="selected">Pen</button>
+                <button id="rainbow-select">Rainbow</button>
+                <button id="eraser-select">Eraser</button>
+            </div>
+            <br>
+            <div id="sketch">
+                <h2>Sketch</h2>
+                <div id="sketch-container">
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
